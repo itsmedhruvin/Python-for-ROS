@@ -1,0 +1,9 @@
+<?xml version='1.0' ?>
+<launch>
+
+  <!-- Modified version of main_turtlebot3_lab.launch.xml from turtlebot3_gazebo package adapter for fastbot -->
+
+  <!-- Launch RViz with pre-configured file -->
+  <include file="$(find-pkg-share fastbot_realrobot)/launch/rviz.launch.py"/>
+
+</launch>
