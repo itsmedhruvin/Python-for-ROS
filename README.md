@@ -1,4 +1,4 @@
-# 🤖 Python Basics for Robotics — Course Project
+# 🤖 Python for Robotics — 
 
 A hands-on robotics project built entirely in Python, where I programmed a TurtleBot3 (simulation) and a FastBot (real robot) to perform autonomous motion control, sensor reading, and basic obstacle avoidance — all from scratch.
 
