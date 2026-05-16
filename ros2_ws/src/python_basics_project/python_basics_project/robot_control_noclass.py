@@ -12,7 +12,6 @@ from rclpy.executors import MultiThreadedExecutor
 from robot_interface import RobotInterface
 
 
-#~#~#~#~#~# start your function definitions after this line #~#~#~#~#~#
 
 # ─────────────────────────────────────────────────────────────────────────────
 # MOVEMENT FUNCTIONS  (14)
@@ -406,11 +405,10 @@ if __name__ == "__main__":
     print("READY !!!")
 
     try:
-        #~#~#~#~#~# start your program after this line #~#~#~#~#~#
+      
 
         run_tests()
 
-        #~#~#~#~#~# finish your program before this line #~#~#~#~#~#
 
     except Exception as error:
         # report exception
