@@ -13,7 +13,6 @@ from rclpy.executors import MultiThreadedExecutor
 from robot_interface import RobotInterface
 
 
-#~#~#~#~#~# start your class after this line #~#~#~#~#~#
 
 class RobotControl:
 
@@ -561,7 +560,6 @@ class RobotControl:
         print("ALL TESTS COMPLETE.")
         return None
 
-#~#~#~#~#~# finish your class before this line #~#~#~#~#~#
 
 
 def spin_node():
@@ -591,7 +589,7 @@ if __name__ == "__main__":
     print("READY !!!")
 
     try:
-        #~#~#~#~#~# start your program after this line #~#~#~#~#~#
+        
 
         rc = RobotControl(robot_interface)
 
